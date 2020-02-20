@@ -1,0 +1,53 @@
+/*
+font-family: 'Coda Caption', sans-serif;
+font-family: 'Heebo', sans-serif;
+*/
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Catamaran', serif, sans-serif;
+    font-size:2vw;
+    color:black;
+}
+
+.topGrid{
+    display: grid;
+}
+
+img{
+    width:100%;
+}
+main{
+    position: relative;
+    display: block;
+}
+h1{
+    color:whitesmoke;
+    font-size: 4rem;
+    font-family: 'Heebo', sans-serif;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    text-align: center;
+}
+h2{
+    color:whitesmoke;
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:100%;
+    text-align: center;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap:5px;
+    grid-auto-flow: dense;
+}
